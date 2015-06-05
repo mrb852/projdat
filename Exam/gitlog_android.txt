@@ -1,0 +1,10 @@
+Nicklas Warming Jacobsen	Når man logger ind kommer man nu ind på den rigtige activity. Tilføjet toast popup ved login til at give besked om: 1. forkert password/email, 2. Server fejl og 3. netværksfejl.
+Nicklas Warming Jacobsen	Prof of concept login er nu implementeret
+Nicklas Warming Jacobsen	Startet på surftown API connection klasse
+Nicklas Warming Jacobsen	Start på at lave integration til billhost API'et
+Robert Rasmussen	Finished navigation drawer, and support for headers in nav drawer
+Robert Rasmussen	Added navigation drawer.
+Robert Rasmussen	Splash screen added. Started work on application drawer.
+Robert Rasmussen	Created new prototype with empty activity
+Robert Rasmussen	Removed prototype
+Robert Rasmussen	Added prototype project

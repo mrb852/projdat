@@ -1,0 +1,37 @@
+\documentclass[]{article}
+\usepackage{amsmath} % flere matematikkommandoer
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc} % æøå
+\usepackage[T1]{fontenc} % mere æøå
+\usepackage[danish]{babel} % orddeling
+\usepackage{verbatim} % så man kan skrive ren tekst
+\usepackage[all]{xy} % den sidste (avancerede) formel i dokumentet
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+
+\begin{document}
+
+\title{Review NAUR}
+\author{Christian Enevoldsen}
+\date{\today}
+\maketitle
+
+\section*{Summary}
+
+The text states that programmer's builds theories for there programs. Programmers are not only writing programs, but are also programming documentation, design texts etc, so that they will be able to be modified and extended by third parties later.\\
+
+The two examples in the section about programming and programmer's knowledge shows that not only written documentation about the code and design is necessary, but personal advice from the original inventors can be crucial in some applications. In the complex example (case 2) you see that the programmers doesn't even understand the documentation and that they rely on someone who has worked on it for a long time or even better, the inventor. \\
+
+The text covers scenarios where it's more sufficient to make the program more flexible in form of extensibility rather than programming the entire program from scratch. It discusses what would be cheaper by the example of a building. Is it better or worse to smash the building and build it again with improvements or is it better to extend it by modifying the original one. \\
+
+Program Life, Death, and Revival. The section tells about the life cycle of  a program. A program dies when the theory is dissolved, and it revives whenever another programmer rebuilds the theory. New and younger programmers who takes over control of the the program to either extend, modify or rebuild the program with the original theory in mind, is ought to have contact with the existing theory and or inventor. The younger programmer understands the worlds demands and the old theorist will give personal advice, and together they will be able to modify the program to suit new demands and keep the theory. That being said the text also states that without proper knowledge from the original programmer team, the program is less likely to revive as of the fact that the new programmer won't know or understand the theory in mind. The new programmer is more likely to program it all over again. \\
+
+The next section "Method and Theory Building" talks about programming methods. The programming method is chosen by the the authors, but are not always clear. However a programming method will define languages, rules, and documents to produce for instance. The text says that a method implies a claim that program development is proceeded as a seqeunce of steps resulting in a documented result. The theory building there are concrete methods that are right.
+
+\section*{Thoughts}
+Although the text is very old, it states something we kind of see today. We are still making our programs extendable and ready to modify. However mobile application has not been modifiable until very recently, which our System however wouldn't benefit from in praxis. \\
+
+Most programs today doesn't need the kind of supervising that old and buggy system did. Today the abstraction level is very high in applications and we are some what in an era of ‘good coding style’. Everything is documented very well, rules have been given in API documentation, Object-oriented analysis and design, sequence diagrams, use case diagrams clearly states the purpose and thoughts of the program / application.
+\end{document}

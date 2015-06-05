@@ -1,0 +1,126 @@
+\relax 
+\catcode `"\active 
+\select@language{danish}
+\@writefile{toc}{\select@language{danish}}
+\@writefile{lof}{\select@language{danish}}
+\@writefile{lot}{\select@language{danish}}
+\citation{factor}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Abstract}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Form\IeC {\r a}l og rammer}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Kravspecifikation}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Funktionelle krav i prioteret r\IeC {\ae }kkef\IeC {\o }lge}{6}}
+\newlabel{functionlist}{{3.1}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Ikke-funktionelle krav}{8}}
+\newlabel{nonfunctionlist}{{3.2}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Begr\IeC {\ae }nsninger}{8}}
+\newlabel{constrains}{{3.3}{8}}
+\citation{OOSE}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Klassediagram over problemomr\IeC {\r a}det}{9}}
+\newlabel{class_diagram_section}{{3.4}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Figur af klassediagramet over problemomr\IeC {\r a}det}}{9}}
+\newlabel{class_diagram}{{1}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Use cases og akt\IeC {\o }rer}{10}}
+\citation{OOSE}
+\citation{OOSE}
+\citation{OOSE}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces H\IeC {\o }jniveau-diagram af systemet, som beskrevet i \emph  {Object-Oriented Software Engineering Using UML, Patterns, and JAVA}\cite  {OOSE} kapitel 4.}}{11}}
+\newlabel{highleveldiagram}{{2}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Figuren viser et use-case-diagram af ``RecoverPassword``. ''RecoverPassword`` er en funktion som akt\IeC {\o }ren ''User``, brugeren af applikationen, kan aktiverer ved at trykke p\IeC {\r a} en knap, i tilf\IeC {\ae }lde af at brugeren har glemt sine loginoplysninger til Surftown. N\IeC {\r a}r akt\IeC {\o }ren ''User`` aktiverer denne funktion, viser applikationen en udfyldelses-form, hvor ''User`` kan indtaste og indsende sin E-mail adresse til Surftown. I givet fald at ''User``'s indtastede E-mail adresse er genkendt af Surftown, vil Surftown sende nye loginoplysninger til akt\IeC {\o }ren ''User``.}}{13}}
+\newlabel{RecoverPasswordUseCase}{{3}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Figuren viser et sekvensdiagram af ''RecoverPassword`` funktionen, hvis use case er afbilledet i figur \ref  {RecoverPasswordUseCase}. I denne figur er alle tre forskellige akt\IeC {\o }rer vist. Det starter med at akt\IeC {\o }ren ''User`` aktiverer funktionen ''RecoverPassword`` ved at trykke p\IeC {\r a} en knap. Herefter bliver der oprettet et ''RecoverPassword`` objekt, som opretter en boundary, i form af en udfyldelses form, hvor ''User`` kan indtaste information og indsende det. N\IeC {\r a}r ''User`` har indsendt informationen, modtager ''RecoverPassword`` objektet informationen og destruerer den sidste boundary. Herefter sender ''RecoverPassword`` objektet informationen videre til akt\IeC {\o }reren ''SurftownProxyAPI``, som sender det til ''SurftownAPI``, hvorefter ''SurftownAPI`` s\IeC {\o }rger for at sende nye login-informationer til ''User``.}}{14}}
+\newlabel{fig:RecoverPassword}{{4}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Figuren viser et use-case-diagram af Login. ``Login'' er en funktion som give akt\IeC {\o }ren ``User'' mulighed for at se sine private oplysninger, ved angive sin E-mail og password, som er registreret hos Surftow.}}{15}}
+\newlabel{LoginUseCase}{{5}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Figuren er et sekvensdiagram af ``Login`` funktionen, hvis use case er afbilledet i figur \ref  {LoginUseCase}. I denne figur er alle tre forskellige akt\IeC {\o }re vist. Akt\IeC {\o }ren ''User`` aktiverer ''Login`` funktionen, hvorefter et ''Login`` objekt bliver dannet. ''Login`` objektet opretter en login-form boundary, hvor brugeren kan udfylde sine login oplysninger og indsende dem. N\IeC {\r a}r ''User`` indsender oplysningerne, modtager ''Login`` objektet dem, hvorefter ''Login`` objektet sender oplysningerne til akt\IeC {\o }ren ''SurftownProxyAPI``, samt destruerer login-form boundary'en. ''SurftownProxyAPI`` sender oplysningerne til ''SurftownAPI`` og modtager et user-id, hvorefter ''SurftownProxyAPI`` laver en session-cookie som ''Login`` objektet gemmer. Brugeren er nu logget ind.}}{16}}
+\newlabel{fig:Login}{{6}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Figuren er et use-case-diagram af ''GetPublicInformation`` funktionen.}}{17}}
+\newlabel{GetPublicInformationUseCase}{{7}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Figuren er et sekvensdiagram af ''GetPublicInformation`` funktionen. ''GetPublicInformation`` er en meget simpel funktion, hvor akt\IeC {\o }ren ''User`` trykker sig ind p\IeC {\r a} et view hvor der skal vises offentlig tilg\IeC {\ae }ngelig information (f. eks. kontaktinformation til Surftown), hvorefter der bliver oprettet et ''InformationControl`` objekt. ''InformationControl`` objektet laver et kalde til ''SurftownProxyAPI`` som videresender kaldet til ''SurftownAPI``'et}}{17}}
+\newlabel{fig:GetPublicInformation}{{8}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Figuren er et use-case-diagram af ``GetPrivateInformation'' funktionen. ``GetPrivateInformation'' funktionen er den funktion som bliver kaldt n\IeC {\r a}r brugeren skal se ikke-offentlige tilg\IeC {\ae }ngelige informationer (f. eks. informationer om brugeres services hos Surftown)}}{18}}
+\newlabel{GetPrivateInformationUseCase}{{9}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Figuren er et sekvensdiagram af ``GetPrivateInformation'' funktionen. Funktionen ``GetPrivateInformation'' bliver kaldt n\IeC {\r a}r akt\IeC {\o }ren ``User'' tilg\IeC {\r a}r et view med bruger privat information. N\IeC {\r a}r funktionen bliver kaldt bliver et ``InformationControl'' objekt oprettet, som opretter et ``SessionControl'' objekt. ``SessionControl'' objektet sender en session-cookie (som er optaget via ``Login'' funktionen) til akt\IeC {\o }ren ``SurftownProxyAPI''. ``SurftownProxyAPI'' beder om de private informationer for ``User'' via et user-id som er associeret med session-cookien.}}{19}}
+\newlabel{fig:GetPrivateInformation}{{10}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Systemdesign}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Surftown API}{19}}
+\citation{OOSE}
+\citation{OOSE}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Applikationen}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Decomposition diagram af applikationen, inspireret af \emph  {Object-Oriented Software Engineering Using UML, Patterns, and JAVA}\cite  {OOSE}}}{20}}
+\newlabel{system_components}{{11}{20}}
+\citation{OOSE}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Programtest og resultater}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Resultat}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Resultat konklusion}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og workflow}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Sk\IeC {\ae }rmbilleder}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Loginsk\IeC {\ae }rm p\IeC {\r a} iOS}}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Loginsk\IeC {\ae }rm p\IeC {\r a} Android}}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Menusk\IeC {\ae }rm p\IeC {\r a} iOS}}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Menusk\IeC {\ae }rm p\IeC {\r a} Android}}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Dom\IeC {\ae }neoversigtsk\IeC {\ae }rm p\IeC {\r a} iOS}}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Dom\IeC {\ae }neoversigtsk\IeC {\ae }rm p\IeC {\r a} Android}}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Workflow}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Flowdiagram over hovedfunktionerne i Surftown applikationen}}{30}}
+\newlabel{flow}{{18}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Audio-visuel pr\IeC {\ae }sentation}{30}}
+\bibcite{factor}{1}
+\bibcite{OOSE}{2}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Versionstyring}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Git opbygning}{31}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Projektsamarbejdet}{31}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Bilag}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Kildekode til proxy API server}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Kildekode til Android applikation}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Kildekoden til iOS applikationen}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Testspecifikationer}{33}}
+\newlabel{testSpec}{{9.4}{33}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.4.1}RecoverPassword}{33}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.4.2}Login- og navigationstest}{34}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Git log for Android applikationen}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Git log for iOS applikationen}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{35}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{36}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}
+\@writefile{toc}{\contentsline {paragraph}{}{37}}

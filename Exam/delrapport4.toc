@@ -1,0 +1,76 @@
+\select@language {danish}
+\contentsline {section}{\numberline {1}Abstract}{4}
+\contentsline {section}{\numberline {2}Form\IeC {\r a}l og rammer}{4}
+\contentsline {section}{\numberline {3}Kravspecifikation}{6}
+\contentsline {subsection}{\numberline {3.1}Funktionelle krav i prioteret r\IeC {\ae }kkef\IeC {\o }lge}{6}
+\contentsline {subsection}{\numberline {3.2}Ikke-funktionelle krav}{8}
+\contentsline {subsection}{\numberline {3.3}Begr\IeC {\ae }nsninger}{8}
+\contentsline {subsection}{\numberline {3.4}Klassediagram over problemomr\IeC {\r a}det}{9}
+\contentsline {subsection}{\numberline {3.5}Use cases og akt\IeC {\o }rer}{10}
+\contentsline {section}{\numberline {4}Systemdesign}{19}
+\contentsline {subsection}{\numberline {4.1}Surftown API}{19}
+\contentsline {subsection}{\numberline {4.2}Applikationen}{20}
+\contentsline {section}{\numberline {5}Programtest og resultater}{21}
+\contentsline {subsection}{\numberline {5.1}Resultat}{22}
+\contentsline {subsection}{\numberline {5.2}Resultat konklusion}{22}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og workflow}{23}
+\contentsline {subsection}{\numberline {6.1}Sk\IeC {\ae }rmbilleder}{23}
+\contentsline {subsection}{\numberline {6.2}Workflow}{30}
+\contentsline {subsection}{\numberline {6.3}Audio-visuel pr\IeC {\ae }sentation}{30}
+\contentsline {section}{\numberline {7}Versionstyring}{31}
+\contentsline {subsection}{\numberline {7.1}Git opbygning}{31}
+\contentsline {section}{\numberline {8}Projektsamarbejdet}{31}
+\contentsline {section}{\numberline {9}Bilag}{32}
+\contentsline {subsection}{\numberline {9.1}Kildekode til proxy API server}{32}
+\contentsline {subsection}{\numberline {9.2}Kildekode til Android applikation}{32}
+\contentsline {subsection}{\numberline {9.3}Kildekoden til iOS applikationen}{32}
+\contentsline {subsection}{\numberline {9.4}Testspecifikationer}{33}
+\contentsline {subsubsection}{\numberline {9.4.1}RecoverPassword}{33}
+\contentsline {subsubsection}{\numberline {9.4.2}Login- og navigationstest}{34}
+\contentsline {subsection}{\numberline {9.5}Git log for Android applikationen}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {subsection}{\numberline {9.6}Git log for iOS applikationen}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}

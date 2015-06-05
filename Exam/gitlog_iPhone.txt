@@ -1,0 +1,35 @@
+Christian Enevoldsen	Corrects spacing between navigation bar and tableview in dashboard
+Christian Enevoldsen	Adds tableview to STDashboardViewController
+Christian Enevoldsen	Few adjustments to navigationitem style - including title
+Christian Enevoldsen	Adds UINavigationController
+Christian Enevoldsen	Fixed couple of warnings. Please check log
+Christian Enevoldsen	Fixed conflict
+Christian Enevoldsen	Fixed conflict
+Simon	Added a TableView layout for HBServices. Extended HBService model to cover more properties
+Christian Enevoldsen	Fix blocking the UIAlertView
+Simon	Merge branch 'master' of bitbucket.org:Chrene/surftown-ios-app
+Simon	Created HBService classes
+Christian Enevoldsen	added success to HBRequest
+Christian Enevoldsen	Removed prepareForSegue. Not used
+Christian Enevoldsen	Removed the scrolling effect from the login screen
+Christian Enevoldsen	Adds properties for the client data
+Christian Enevoldsen	removes injection and parse
+Christian Enevoldsen	removes injection and parse
+Christian Enevoldsen	Lot's of changes
+Christian Enevoldsen	Big update.
+Christian Enevoldsen	Moved content offset behavior to STScrollViewController
+Christian Enevoldsen	Adds custom scrollview controller for custom behavior
+Christian Enevoldsen	Tweaks corner radii
+Christian Enevoldsen	Refactor color names and adds placeholder text color
+Christian Enevoldsen	Adds more documentation for the STButton and small refactoring
+Christian Enevoldsen	Adds event blocks to the button
+Christian Enevoldsen	Refactors button
+Christian Enevoldsen	Fixes the button texts frame and color
+Christian Enevoldsen	Adds the username and password textfields, and the submit button, to the login view
+Christian Enevoldsen	Displays the login screen through the app delegate now
+Christian Enevoldsen	Deletes storyboard. Gonna go the hardcore way
+Christian Enevoldsen	Links STLoginViewController to the storyboard. Dismisses keyboard when user taps outside the keyboard while editing
+Christian Enevoldsen	Creates STLoginViewController
+Christian Enevoldsen	Creates STLoginViewController
+Christian Enevoldsen	Changes border width of STTextField
+Christian Enevoldsen	initial commit
